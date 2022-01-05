@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>HTML Vertical Stripe</title>
+
+	<style>
+		table, th, td, tr
+		{
+			border: 2px solid brown;
+			border-collapse: collapse;
+		}
+		th, td, tr
+		{
+			padding: 5px;
+		}
+		td
+		{
+			text-align: center;
+		}
+		th
+		{
+			background-color: black;
+			color: whitesmoke;
+		}
+		td:nth-child(odd)
+		{
+			background-color: lightblue;
+		}
+		tr:hover
+		{
+			background-color: lightyellow;
+		}
+	</style>
+</head>
+<body>
+
+	<table style="width: 100%;">
+		<caption>This is basic table</caption>
+		<tr>
+			<th>Name</th>
+			<th>Age</th>
+			<th>Phone Number</th>
+		</tr>
+		<tr>
+			<td>Nurul Aqilah</td>
+			<td>20</td>
+			<td>0137201366</td>
+		</tr>
+		<tr>
+			<td>Nurul Aqilah</td>
+			<td>20</td>
+			<td>0137201366</td>
+		</tr>
+		<tr>
+			<td>Nurul Aqilah</td>
+			<td>20</td>
+			<td>0137201366</td>
+		</tr>
+	</table>
+
+</body>
+</html>

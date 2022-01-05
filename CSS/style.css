@@ -1,0 +1,26 @@
+body
+{
+	background-color: skyblue;
+}
+p
+{
+	font-size: 20px;
+	font-family: Lucida Handwriting;
+	color: white;
+}
+h1, h2
+{
+	font-family: Papyrus;
+	color: purple;
+}
+table
+{
+	border: 2px solid grey;
+	border-collapse: collapse;
+	width: 500px;
+	text-align: center;
+}
+tr, td, th
+{
+	border: 1px solid grey;
+}

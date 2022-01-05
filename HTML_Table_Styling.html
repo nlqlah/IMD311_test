@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>HTML Table (Zebra Stripe)</title>
+	<style>
+		table, th, td, tr
+		{
+			border: 2px solid brown;
+			border-collapse: collapse;
+		}
+		th, td, tr
+		{
+			padding: 5px;
+		}
+		td
+		{
+			text-align: center;
+		}
+		th
+		{
+			background-color: black;
+			color: whitesmoke;
+		}
+		tr:nth-child(even)
+		{
+			background-color: lightgrey;
+		}
+
+	</style>
+</head>
+<body>
+
+	<table style="width: 100%;">
+		<caption>This is basic table</caption>
+		<tr>
+			<th>Name</th>
+			<th>Age</th>
+			<th>Phone Number</th>
+		</tr>
+		<tr>
+			<td>Nurul Aqilah</td>
+			<td>20</td>
+			<td>0137201366</td>
+		</tr>
+		<tr>
+			<td>Nurul Aqilah</td>
+			<td>20</td>
+			<td>0137201366</td>
+		</tr>
+		<tr>
+			<td>Nurul Aqilah</td>
+			<td>20</td>
+			<td>0137201366</td>
+		</tr>
+	</table>
+
+</body>
+</html>
